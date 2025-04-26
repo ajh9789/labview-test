@@ -1,0 +1,35 @@
+# LabVIEW 기본 캐시 파일 무시
+*.aliases
+*.lvlps
+*.lvlibp
+*.lvbitx
+*.exe
+*.dll
+*.lvuser
+*.lvimx
+*.mnu
+*.bak
+*.log
+
+# 빌드 결과물 무시
+/build/
+/dist/
+
+# 임시 파일 무시
+*.tmp
+*.temp
+*.autosave
+*.vi~   # vi 파일 백업본
+
+# 사용자 설정 파일 무시
+*.vipc
+*.lvproj~   # 프로젝트 백업본
+*.lvclass~  # 클래스 백업본
+
+# OS 별 무시 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Git 관련 파일
+.git/
